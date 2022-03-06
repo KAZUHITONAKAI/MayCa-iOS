@@ -1,0 +1,21 @@
+import SwiftUI
+class AppSNSLink {
+    //static var link_facebook:String = "fb://page?id="
+    //static var link_facebook:String = "fb://profile/"
+    static var link_facebook:String = "https://facebook.com/"
+    static var link_instagram:String = "instagram://user?username="
+    static var link_twitter:String = "twitter://user?screen_name="
+    //static var link_line:String = "line://user?username="
+    static var link_line:String = "https://line.me/R/nv/chat"
+    static var link_lineadd:String = "https://line.me/R/nv/addFriends"
+    static var link_lineprofile:String = "https://line.me/R/nv/profile"
+    static var link_YouTube:String = "YouTube://"
+    static var link_maps:String = "http://maps.apple.com/maps?ll="
+    static var link_sns:String = "http://"
+    static var link_tel:String = "tel://"
+    static var link_fax:String = "fax://"
+    static var link_email:String = "mailto:"
+    static var link_mayca:String = "https://apps.apple.com/jp/app/mayca/id1574507583"
+    static var link_mayca_news:String = "mayca_news"
+    static var link_mayca_profile:String = "profile.php?id=100072531320204"
+}
