@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3C172626D3B455002E8CEC /* PopupCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C172526D3B455002E8CEC /* PopupCategoryView.swift */; };
+		0E3C172826D3B811002E8CEC /* DB_ManagerUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C172726D3B811002E8CEC /* DB_ManagerUserData.swift */; };
+		0E3C172A26D3B92E002E8CEC /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C172926D3B92E002E8CEC /* UserDataModel.swift */; };
+		0E3C172C26D3BB2B002E8CEC /* AddUserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C172B26D3BB2B002E8CEC /* AddUserDataView.swift */; };
+		0E4E172D26C6322800EE6AF5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E172C26C6322800EE6AF5 /* ImagePicker.swift */; };
+		0ED114A326CE34FD0031CE58 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED114A226CE34FD0031CE58 /* AdView.swift */; };
+		0ED114A526CE3DFF0031CE58 /* BusinessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED114A426CE3DFF0031CE58 /* BusinessCardView.swift */; };
+		0ED114A726CF507E0031CE58 /* AppSNSLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED114A626CF507E0031CE58 /* AppSNSLink.swift */; };
+		45615F87BA0725967F7E0EB7 /* Pods_MayCa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B0A290B2D368FD41FF6DA /* Pods_MayCa.framework */; };
+		4D52B2F285C527FBD25C1AB7 /* Pods_MayCa_MayCaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2E160DF995A6FC9227FA6 /* Pods_MayCa_MayCaUITests.framework */; };
+		CA26783F262DA8A30038FD6E /* MayCaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26783E262DA8A30038FD6E /* MayCaApp.swift */; };
+		CA267841262DA8A30038FD6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA267840262DA8A30038FD6E /* ContentView.swift */; };
+		CA267843262DA8A30038FD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA267842262DA8A30038FD6E /* Assets.xcassets */; };
+		CA267846262DA8A30038FD6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA267845262DA8A30038FD6E /* Preview Assets.xcassets */; };
+		CA267851262DA8A30038FD6E /* MayCaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA267850262DA8A30038FD6E /* MayCaTests.swift */; };
+		CA26785C262DA8A30038FD6E /* MayCaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26785B262DA8A30038FD6E /* MayCaUITests.swift */; };
+		CA3662A026D5018C00433DE4 /* UserDataEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36629F26D5018B00433DE4 /* UserDataEditView.swift */; };
+		CA507E5C274C7967007D70A5 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA507E5B274C7967007D70A5 /* EditUserView.swift */; };
+		CA5FDE21268C9213005F4F9D /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FDE20268C9213005F4F9D /* QrCodeCameraDelegate.swift */; };
+		CA6EE404263D1BA600BDFE59 /* MyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EE403263D1BA600BDFE59 /* MyDataView.swift */; };
+		CA6EE409263D769500BDFE59 /* MyDataSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EE408263D769500BDFE59 /* MyDataSettingView.swift */; };
+		CA6EE416263D7E9400BDFE59 /* QRCodeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EE415263D7E9400BDFE59 /* QRCodeMaker.swift */; };
+		CA75FFE026E658880067F88C /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75FFDF26E658880067F88C /* ShareSheet.swift */; };
+		CA78BE6A269856B8003D6A17 /* MeetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78BE62269856B8003D6A17 /* MeetingModel.swift */; };
+		CA78BE6C269856E7003D6A17 /* DB_ManagerMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78BE6B269856E7003D6A17 /* DB_ManagerMeeting.swift */; };
+		CA78BE6E26985D94003D6A17 /* AddMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78BE6D26985D94003D6A17 /* AddMeetingView.swift */; };
+		CA7E0EA0268B1C92004E37C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0E98268B1C92004E37C4 /* MapView.swift */; };
+		CA7E0EA4268B1C99004E37C4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EA3268B1C99004E37C4 /* CircleImage.swift */; };
+		CA7E0EA8268B338C004E37C4 /* meetingData.json in Resources */ = {isa = PBXBuildFile; fileRef = CA7E0EA7268B338C004E37C4 /* meetingData.json */; };
+		CA7E0EAC268B339B004E37C4 /* MeetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EAB268B339B004E37C4 /* MeetingData.swift */; };
+		CA7E0EB0268B33D3004E37C4 /* MeetingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EAF268B33D3004E37C4 /* MeetingList.swift */; };
+		CA7E0EB4268B33F0004E37C4 /* MeetingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EB3268B33F0004E37C4 /* MeetingRow.swift */; };
+		CA7E0EB8268B33FB004E37C4 /* MeetingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EB7268B33FB004E37C4 /* MeetingDetail.swift */; };
+		CA7E0EBC268B35B7004E37C4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E0EBB268B35B7004E37C4 /* WebView.swift */; };
+		CA7E0EC0268B3CCD004E37C4 /* maru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA7E0EBF268B3CCD004E37C4 /* maru.jpg */; };
+		CA82CFF926991D7C00069C4C /* DB_ManagerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82CFF826991D7C00069C4C /* DB_ManagerCategory.swift */; };
+		CA82D00226991F6000069C4C /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82D00126991F6000069C4C /* CategoryModel.swift */; };
+		CA82D00626992E5A00069C4C /* CategoryRegistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82D00526992E5A00069C4C /* CategoryRegistView.swift */; };
+		CA832F17268C866900D04346 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA832F16268C866900D04346 /* ScannerViewModel.swift */; };
+		CA832F1B268C867C00D04346 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA832F1A268C867C00D04346 /* CameraPreview.swift */; };
+		CA832F1F268C868800D04346 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA832F1E268C868800D04346 /* QrCodeScannerView.swift */; };
+		CA838E3026F7839700C91170 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA838E2F26F7839700C91170 /* Common.swift */; };
+		CA853455269C5EAA004071FC /* BCExchangeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85344D269C5EAA004071FC /* BCExchangeView2.swift */; };
+		CA87559626900DBE004BB857 /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87558E26900DBE004BB857 /* DB_Manager.swift */; };
+		CA87559826900DD5004BB857 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87559726900DD5004BB857 /* AddUserView.swift */; };
+		CA87559E26900E02004BB857 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87559D26900E02004BB857 /* UserModel.swift */; };
+		CA884F4A26D67526003FD46F /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA884F4926D67526003FD46F /* ImagePickerView.swift */; };
+		CA93996226B4263A00F76BAB /* UserSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA93996126B4263A00F76BAB /* UserSettingModel.swift */; };
+		CA975E5126931DD8007A5A56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA975E4926931DD8007A5A56 /* CoreLocation.framework */; };
+		CA975E53269325EE007A5A56 /* QRCode2UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA975E52269325EE007A5A56 /* QRCode2UserDetail.swift */; };
+		CA9A42D226A2E27F00598687 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A42D126A2E27F00598687 /* AlertDialog.swift */; };
+		CAADA74926C3EF17006F9098 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADA74826C3EF17006F9098 /* QRCodeView.swift */; };
+		CAADA74B26C3F1AF006F9098 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADA74A26C3F1AF006F9098 /* QRCodeReaderView.swift */; };
+		CAADA74D26C3F73B006F9098 /* PopUpMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADA74C26C3F73B006F9098 /* PopUpMapView.swift */; };
+		CAB9170F26C0CC8A00FDDF28 /* PopupQRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9170E26C0CC8A00FDDF28 /* PopupQRCodeReaderView.swift */; };
+		CAB9171126C10C9F00FDDF28 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9171026C10C9F00FDDF28 /* DraggableView.swift */; };
+		CAB9171326C1121200FDDF28 /* Avater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9171226C1121200FDDF28 /* Avater.swift */; };
+		CABAADCA269F138700548524 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CABAADC2269F138700548524 /* GoogleService-Info.plist */; };
+		CAC5A4E92689E3F10086FD2B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5A4E12689E3F10086FD2B /* Data.swift */; };
+		CAC5A4ED2689E4100086FD2B /* UserDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5A4EC2689E4100086FD2B /* UserDataRow.swift */; };
+		CAC5A4F12689E41A0086FD2B /* UserDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5A4F02689E41A0086FD2B /* UserDataList.swift */; };
+		CAC5A5072689FA760086FD2B /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5A5062689FA760086FD2B /* PersonData.swift */; };
+		CAC5A52A268A07700086FD2B /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAC5A529268A07700086FD2B /* userData.json */; };
+		CAC5A52E268A09B60086FD2B /* gana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAC5A52D268A09B60086FD2B /* gana.jpg */; };
+		CAC5A532268A09BF0086FD2B /* kazu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAC5A531268A09BF0086FD2B /* kazu.jpg */; };
+		CAC5A536268A0ED00086FD2B /* UserDataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5A535268A0ED00086FD2B /* UserDataDetail.swift */; };
+		CACC07712632E14C002E4E63 /* BCExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC07702632E14C002E4E63 /* BCExchangeView.swift */; };
+		CACC07762632E346002E4E63 /* ScreenTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC07752632E346002E4E63 /* ScreenTransitionView.swift */; };
+		CAEE4F2426723BCD002EEFF3 /* MeetingLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE4F2326723BCD002EEFF3 /* MeetingLayoutView.swift */; };
+		F2E56A4A6E4CCEA894190740 /* Pods_MayCaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DDA713B663B859E163BFF7 /* Pods_MayCaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA26784D262DA8A30038FD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA267833262DA8A30038FD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA26783A262DA8A30038FD6E;
+			remoteInfo = MayCa;
+		};
+		CA267858262DA8A30038FD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA267833262DA8A30038FD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA26783A262DA8A30038FD6E;
+			remoteInfo = MayCa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3C172526D3B455002E8CEC /* PopupCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupCategoryView.swift; sourceTree = "<group>"; };
+		0E3C172726D3B811002E8CEC /* DB_ManagerUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_ManagerUserData.swift; sourceTree = "<group>"; };
+		0E3C172926D3B92E002E8CEC /* UserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		0E3C172B26D3BB2B002E8CEC /* AddUserDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserDataView.swift; sourceTree = "<group>"; };
+		0E4E172C26C6322800EE6AF5 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0ED114A226CE34FD0031CE58 /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		0ED114A426CE3DFF0031CE58 /* BusinessCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardView.swift; sourceTree = "<group>"; };
+		0ED114A626CF507E0031CE58 /* AppSNSLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSNSLink.swift; sourceTree = "<group>"; };
+		2AB2E160DF995A6FC9227FA6 /* Pods_MayCa_MayCaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayCa_MayCaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E7067AF4627ADC6DC3ADD4 /* Pods-MayCa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCa.release.xcconfig"; path = "Target Support Files/Pods-MayCa/Pods-MayCa.release.xcconfig"; sourceTree = "<group>"; };
+		5801E5059B08B668E3FC84C5 /* Pods-MayCa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCa.debug.xcconfig"; path = "Target Support Files/Pods-MayCa/Pods-MayCa.debug.xcconfig"; sourceTree = "<group>"; };
+		709E79C676CC94DC5BAF9B3B /* Pods-MayCa-MayCaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCa-MayCaUITests.release.xcconfig"; path = "Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76A26BCC572835D09B0FD9FD /* Pods-MayCaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCaTests.debug.xcconfig"; path = "Target Support Files/Pods-MayCaTests/Pods-MayCaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94DDA713B663B859E163BFF7 /* Pods_MayCaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayCaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4B0A290B2D368FD41FF6DA /* Pods_MayCa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayCa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA26783B262DA8A30038FD6E /* MayCa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayCa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA26783E262DA8A30038FD6E /* MayCaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayCaApp.swift; sourceTree = "<group>"; };
+		CA267840262DA8A30038FD6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA267842262DA8A30038FD6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA267845262DA8A30038FD6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA267847262DA8A30038FD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA26784C262DA8A30038FD6E /* MayCaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayCaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA267850262DA8A30038FD6E /* MayCaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayCaTests.swift; sourceTree = "<group>"; };
+		CA267852262DA8A30038FD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA267857262DA8A30038FD6E /* MayCaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayCaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA26785B262DA8A30038FD6E /* MayCaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayCaUITests.swift; sourceTree = "<group>"; };
+		CA26785D262DA8A30038FD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA36629F26D5018B00433DE4 /* UserDataEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataEditView.swift; sourceTree = "<group>"; };
+		CA507E5B274C7967007D70A5 /* EditUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		CA5FDE20268C9213005F4F9D /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		CA6EE403263D1BA600BDFE59 /* MyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataView.swift; sourceTree = "<group>"; };
+		CA6EE408263D769500BDFE59 /* MyDataSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataSettingView.swift; sourceTree = "<group>"; };
+		CA6EE415263D7E9400BDFE59 /* QRCodeMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeMaker.swift; sourceTree = "<group>"; };
+		CA75FFDF26E658880067F88C /* ShareSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		CA78BE62269856B8003D6A17 /* MeetingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingModel.swift; sourceTree = "<group>"; };
+		CA78BE6B269856E7003D6A17 /* DB_ManagerMeeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_ManagerMeeting.swift; sourceTree = "<group>"; };
+		CA78BE6D26985D94003D6A17 /* AddMeetingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeetingView.swift; sourceTree = "<group>"; };
+		CA7E0E98268B1C92004E37C4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CA7E0EA3268B1C99004E37C4 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CA7E0EA7268B338C004E37C4 /* meetingData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meetingData.json; sourceTree = "<group>"; };
+		CA7E0EAB268B339B004E37C4 /* MeetingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingData.swift; sourceTree = "<group>"; };
+		CA7E0EAF268B33D3004E37C4 /* MeetingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingList.swift; sourceTree = "<group>"; };
+		CA7E0EB3268B33F0004E37C4 /* MeetingRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRow.swift; sourceTree = "<group>"; };
+		CA7E0EB7268B33FB004E37C4 /* MeetingDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingDetail.swift; sourceTree = "<group>"; };
+		CA7E0EBB268B35B7004E37C4 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CA7E0EBF268B3CCD004E37C4 /* maru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maru.jpg; path = MayCa/maru.jpg; sourceTree = SOURCE_ROOT; };
+		CA82CFF826991D7C00069C4C /* DB_ManagerCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_ManagerCategory.swift; sourceTree = "<group>"; };
+		CA82D00126991F6000069C4C /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		CA82D00526992E5A00069C4C /* CategoryRegistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRegistView.swift; sourceTree = "<group>"; };
+		CA832F16268C866900D04346 /* ScannerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		CA832F1A268C867C00D04346 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		CA832F1E268C868800D04346 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		CA838E2F26F7839700C91170 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CA85344D269C5EAA004071FC /* BCExchangeView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCExchangeView2.swift; sourceTree = "<group>"; };
+		CA87558E26900DBE004BB857 /* DB_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		CA87559726900DD5004BB857 /* AddUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		CA87559D26900E02004BB857 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CA884F4926D67526003FD46F /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		CA93996126B4263A00F76BAB /* UserSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingModel.swift; sourceTree = "<group>"; };
+		CA975E4926931DD8007A5A56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CA975E52269325EE007A5A56 /* QRCode2UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode2UserDetail.swift; sourceTree = "<group>"; };
+		CA9A42D126A2E27F00598687 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		CAADA74826C3EF17006F9098 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		CAADA74A26C3F1AF006F9098 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		CAADA74C26C3F73B006F9098 /* PopUpMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpMapView.swift; sourceTree = "<group>"; };
+		CAB9170E26C0CC8A00FDDF28 /* PopupQRCodeReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupQRCodeReaderView.swift; sourceTree = "<group>"; };
+		CAB9171026C10C9F00FDDF28 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		CAB9171226C1121200FDDF28 /* Avater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avater.swift; sourceTree = "<group>"; };
+		CABAADC2269F138700548524 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAC5A4E12689E3F10086FD2B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CAC5A4EC2689E4100086FD2B /* UserDataRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataRow.swift; sourceTree = "<group>"; };
+		CAC5A4F02689E41A0086FD2B /* UserDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataList.swift; sourceTree = "<group>"; };
+		CAC5A5062689FA760086FD2B /* PersonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		CAC5A529268A07700086FD2B /* userData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
+		CAC5A52D268A09B60086FD2B /* gana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gana.jpg; sourceTree = "<group>"; };
+		CAC5A531268A09BF0086FD2B /* kazu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kazu.jpg; sourceTree = "<group>"; };
+		CAC5A535268A0ED00086FD2B /* UserDataDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataDetail.swift; sourceTree = "<group>"; };
+		CACC07702632E14C002E4E63 /* BCExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCExchangeView.swift; sourceTree = "<group>"; };
+		CACC07752632E346002E4E63 /* ScreenTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionView.swift; sourceTree = "<group>"; };
+		CAEE4F2326723BCD002EEFF3 /* MeetingLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingLayoutView.swift; sourceTree = "<group>"; };
+		DC38BF6793C997044E271857 /* Pods-MayCa-MayCaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCa-MayCaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F132A758123FC4724A0571F7 /* Pods-MayCaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayCaTests.release.xcconfig"; path = "Target Support Files/Pods-MayCaTests/Pods-MayCaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA267838262DA8A30038FD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA975E5126931DD8007A5A56 /* CoreLocation.framework in Frameworks */,
+				45615F87BA0725967F7E0EB7 /* Pods_MayCa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267849262DA8A30038FD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E56A4A6E4CCEA894190740 /* Pods_MayCaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267854262DA8A30038FD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D52B2F285C527FBD25C1AB7 /* Pods_MayCa_MayCaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA267832262DA8A30038FD6E = {
+			isa = PBXGroup;
+			children = (
+				CA26783D262DA8A30038FD6E /* MayCa */,
+				CA26784F262DA8A30038FD6E /* MayCaTests */,
+				CA26785A262DA8A30038FD6E /* MayCaUITests */,
+				CA26783C262DA8A30038FD6E /* Products */,
+				CA404226265A0282001DD3B4 /* Frameworks */,
+				D05352E0868DDDDC69FF4032 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CA26783C262DA8A30038FD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA26783B262DA8A30038FD6E /* MayCa.app */,
+				CA26784C262DA8A30038FD6E /* MayCaTests.xctest */,
+				CA267857262DA8A30038FD6E /* MayCaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA26783D262DA8A30038FD6E /* MayCa */ = {
+			isa = PBXGroup;
+			children = (
+				CA832F15268C860900D04346 /* Delegate */,
+				CAC5A528268A07410086FD2B /* Resources */,
+				CA26783E262DA8A30038FD6E /* MayCaApp.swift */,
+				CA87558E26900DBE004BB857 /* DB_Manager.swift */,
+				CA78BE6B269856E7003D6A17 /* DB_ManagerMeeting.swift */,
+				CA82CFF826991D7C00069C4C /* DB_ManagerCategory.swift */,
+				0E3C172726D3B811002E8CEC /* DB_ManagerUserData.swift */,
+				0E4E172C26C6322800EE6AF5 /* ImagePicker.swift */,
+				CA305188267CE3D300236E3B /* View */,
+				CA305180267CE3CA00236E3B /* Model */,
+				CACC07752632E346002E4E63 /* ScreenTransitionView.swift */,
+				CA6EE415263D7E9400BDFE59 /* QRCodeMaker.swift */,
+				CA267842262DA8A30038FD6E /* Assets.xcassets */,
+				CA267847262DA8A30038FD6E /* Info.plist */,
+				CABAADC2269F138700548524 /* GoogleService-Info.plist */,
+				CA267844262DA8A30038FD6E /* Preview Content */,
+			);
+			path = MayCa;
+			sourceTree = "<group>";
+		};
+		CA267844262DA8A30038FD6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA267845262DA8A30038FD6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA26784F262DA8A30038FD6E /* MayCaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA267850262DA8A30038FD6E /* MayCaTests.swift */,
+				CA267852262DA8A30038FD6E /* Info.plist */,
+			);
+			path = MayCaTests;
+			sourceTree = "<group>";
+		};
+		CA26785A262DA8A30038FD6E /* MayCaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA26785B262DA8A30038FD6E /* MayCaUITests.swift */,
+				CA26785D262DA8A30038FD6E /* Info.plist */,
+			);
+			path = MayCaUITests;
+			sourceTree = "<group>";
+		};
+		CA305180267CE3CA00236E3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA832F16268C866900D04346 /* ScannerViewModel.swift */,
+				CA838E2F26F7839700C91170 /* Common.swift */,
+				0ED114A626CF507E0031CE58 /* AppSNSLink.swift */,
+				CA7E0EAB268B339B004E37C4 /* MeetingData.swift */,
+				CA82D00126991F6000069C4C /* CategoryModel.swift */,
+				CA78BE62269856B8003D6A17 /* MeetingModel.swift */,
+				CAC5A5062689FA760086FD2B /* PersonData.swift */,
+				CAC5A4E12689E3F10086FD2B /* Data.swift */,
+				CA87559D26900E02004BB857 /* UserModel.swift */,
+				0E3C172926D3B92E002E8CEC /* UserDataModel.swift */,
+				CA93996126B4263A00F76BAB /* UserSettingModel.swift */,
+				CAB9171226C1121200FDDF28 /* Avater.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA305188267CE3D300236E3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA267840262DA8A30038FD6E /* ContentView.swift */,
+				CA832F1A268C867C00D04346 /* CameraPreview.swift */,
+				0ED114A226CE34FD0031CE58 /* AdView.swift */,
+				CA82D00526992E5A00069C4C /* CategoryRegistView.swift */,
+				CA78BE6D26985D94003D6A17 /* AddMeetingView.swift */,
+				0ED114A426CE3DFF0031CE58 /* BusinessCardView.swift */,
+				CAB9170E26C0CC8A00FDDF28 /* PopupQRCodeReaderView.swift */,
+				CAADA74A26C3F1AF006F9098 /* QRCodeReaderView.swift */,
+				CAADA74C26C3F73B006F9098 /* PopUpMapView.swift */,
+				CA7E0EAF268B33D3004E37C4 /* MeetingList.swift */,
+				CA85344D269C5EAA004071FC /* BCExchangeView2.swift */,
+				CA7E0EB3268B33F0004E37C4 /* MeetingRow.swift */,
+				CA7E0EB7268B33FB004E37C4 /* MeetingDetail.swift */,
+				CAEE4F2326723BCD002EEFF3 /* MeetingLayoutView.swift */,
+				CA6EE408263D769500BDFE59 /* MyDataSettingView.swift */,
+				CA87559726900DD5004BB857 /* AddUserView.swift */,
+				CA6EE403263D1BA600BDFE59 /* MyDataView.swift */,
+				CA507E5B274C7967007D70A5 /* EditUserView.swift */,
+				0E3C172B26D3BB2B002E8CEC /* AddUserDataView.swift */,
+				CAC5A4F02689E41A0086FD2B /* UserDataList.swift */,
+				CAC5A535268A0ED00086FD2B /* UserDataDetail.swift */,
+				CA36629F26D5018B00433DE4 /* UserDataEditView.swift */,
+				CAC5A4EC2689E4100086FD2B /* UserDataRow.swift */,
+				CA7E0EA3268B1C99004E37C4 /* CircleImage.swift */,
+				0E3C172526D3B455002E8CEC /* PopupCategoryView.swift */,
+				CA7E0E98268B1C92004E37C4 /* MapView.swift */,
+				CA7E0EBB268B35B7004E37C4 /* WebView.swift */,
+				CA832F1E268C868800D04346 /* QrCodeScannerView.swift */,
+				CACC07702632E14C002E4E63 /* BCExchangeView.swift */,
+				CA975E52269325EE007A5A56 /* QRCode2UserDetail.swift */,
+				CAADA74826C3EF17006F9098 /* QRCodeView.swift */,
+				CA9A42D126A2E27F00598687 /* AlertDialog.swift */,
+				CAB9171026C10C9F00FDDF28 /* DraggableView.swift */,
+				CA884F4926D67526003FD46F /* ImagePickerView.swift */,
+				CA75FFDF26E658880067F88C /* ShareSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA404226265A0282001DD3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA975E4926931DD8007A5A56 /* CoreLocation.framework */,
+				9D4B0A290B2D368FD41FF6DA /* Pods_MayCa.framework */,
+				2AB2E160DF995A6FC9227FA6 /* Pods_MayCa_MayCaUITests.framework */,
+				94DDA713B663B859E163BFF7 /* Pods_MayCaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA832F15268C860900D04346 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FDE20268C9213005F4F9D /* QrCodeCameraDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		CAC5A528268A07410086FD2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E0EBF268B3CCD004E37C4 /* maru.jpg */,
+				CA7E0EA7268B338C004E37C4 /* meetingData.json */,
+				CAC5A531268A09BF0086FD2B /* kazu.jpg */,
+				CAC5A52D268A09B60086FD2B /* gana.jpg */,
+				CAC5A529268A07700086FD2B /* userData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D05352E0868DDDDC69FF4032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5801E5059B08B668E3FC84C5 /* Pods-MayCa.debug.xcconfig */,
+				32E7067AF4627ADC6DC3ADD4 /* Pods-MayCa.release.xcconfig */,
+				DC38BF6793C997044E271857 /* Pods-MayCa-MayCaUITests.debug.xcconfig */,
+				709E79C676CC94DC5BAF9B3B /* Pods-MayCa-MayCaUITests.release.xcconfig */,
+				76A26BCC572835D09B0FD9FD /* Pods-MayCaTests.debug.xcconfig */,
+				F132A758123FC4724A0571F7 /* Pods-MayCaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA26783A262DA8A30038FD6E /* MayCa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA267860262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCa" */;
+			buildPhases = (
+				B4AED4F25AA26A00DCEF3480 /* [CP] Check Pods Manifest.lock */,
+				CA267837262DA8A30038FD6E /* Sources */,
+				CA267838262DA8A30038FD6E /* Frameworks */,
+				CA267839262DA8A30038FD6E /* Resources */,
+				DD02ED4DF0BB40ACFDD80C79 /* [CP] Embed Pods Frameworks */,
+				461B78114CA09597B2B574E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayCa;
+			productName = MayCa;
+			productReference = CA26783B262DA8A30038FD6E /* MayCa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA26784B262DA8A30038FD6E /* MayCaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA267863262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCaTests" */;
+			buildPhases = (
+				E31F21AED62C2957D2AA144A /* [CP] Check Pods Manifest.lock */,
+				CA267848262DA8A30038FD6E /* Sources */,
+				CA267849262DA8A30038FD6E /* Frameworks */,
+				CA26784A262DA8A30038FD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA26784E262DA8A30038FD6E /* PBXTargetDependency */,
+			);
+			name = MayCaTests;
+			productName = MayCaTests;
+			productReference = CA26784C262DA8A30038FD6E /* MayCaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA267856262DA8A30038FD6E /* MayCaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA267866262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCaUITests" */;
+			buildPhases = (
+				B538248C05D93B869D79DC00 /* [CP] Check Pods Manifest.lock */,
+				CA267853262DA8A30038FD6E /* Sources */,
+				CA267854262DA8A30038FD6E /* Frameworks */,
+				CA267855262DA8A30038FD6E /* Resources */,
+				F5B3B744BAE66D6A290F4521 /* [CP] Embed Pods Frameworks */,
+				C4129C08D0D7175E79C6EEBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA267859262DA8A30038FD6E /* PBXTargetDependency */,
+			);
+			name = MayCaUITests;
+			productName = MayCaUITests;
+			productReference = CA267857262DA8A30038FD6E /* MayCaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA267833262DA8A30038FD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CA26783A262DA8A30038FD6E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CA26784B262DA8A30038FD6E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CA26783A262DA8A30038FD6E;
+					};
+					CA267856262DA8A30038FD6E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CA26783A262DA8A30038FD6E;
+					};
+				};
+			};
+			buildConfigurationList = CA267836262DA8A30038FD6E /* Build configuration list for PBXProject "MayCa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA267832262DA8A30038FD6E;
+			productRefGroup = CA26783C262DA8A30038FD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA26783A262DA8A30038FD6E /* MayCa */,
+				CA26784B262DA8A30038FD6E /* MayCaTests */,
+				CA267856262DA8A30038FD6E /* MayCaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA267839262DA8A30038FD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267846262DA8A30038FD6E /* Preview Assets.xcassets in Resources */,
+				CABAADCA269F138700548524 /* GoogleService-Info.plist in Resources */,
+				CAC5A532268A09BF0086FD2B /* kazu.jpg in Resources */,
+				CAC5A52A268A07700086FD2B /* userData.json in Resources */,
+				CA7E0EA8268B338C004E37C4 /* meetingData.json in Resources */,
+				CAC5A52E268A09B60086FD2B /* gana.jpg in Resources */,
+				CA267843262DA8A30038FD6E /* Assets.xcassets in Resources */,
+				CA7E0EC0268B3CCD004E37C4 /* maru.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA26784A262DA8A30038FD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267855262DA8A30038FD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		461B78114CA09597B2B574E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AED4F25AA26A00DCEF3480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayCa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B538248C05D93B869D79DC00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayCa-MayCaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4129C08D0D7175E79C6EEBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD02ED4DF0BB40ACFDD80C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayCa/Pods-MayCa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31F21AED62C2957D2AA144A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayCaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B3B744BAE66D6A290F4521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayCa-MayCaUITests/Pods-MayCa-MayCaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA267837262DA8A30038FD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA975E53269325EE007A5A56 /* QRCode2UserDetail.swift in Sources */,
+				CACC07712632E14C002E4E63 /* BCExchangeView.swift in Sources */,
+				0ED114A526CE3DFF0031CE58 /* BusinessCardView.swift in Sources */,
+				CA832F1B268C867C00D04346 /* CameraPreview.swift in Sources */,
+				CA7E0EBC268B35B7004E37C4 /* WebView.swift in Sources */,
+				CA87559626900DBE004BB857 /* DB_Manager.swift in Sources */,
+				CAC5A5072689FA760086FD2B /* PersonData.swift in Sources */,
+				CA5FDE21268C9213005F4F9D /* QrCodeCameraDelegate.swift in Sources */,
+				CA832F17268C866900D04346 /* ScannerViewModel.swift in Sources */,
+				CA853455269C5EAA004071FC /* BCExchangeView2.swift in Sources */,
+				CAADA74B26C3F1AF006F9098 /* QRCodeReaderView.swift in Sources */,
+				CA6EE404263D1BA600BDFE59 /* MyDataView.swift in Sources */,
+				CA93996226B4263A00F76BAB /* UserSettingModel.swift in Sources */,
+				CA7E0EB4268B33F0004E37C4 /* MeetingRow.swift in Sources */,
+				CA884F4A26D67526003FD46F /* ImagePickerView.swift in Sources */,
+				0E3C172826D3B811002E8CEC /* DB_ManagerUserData.swift in Sources */,
+				0ED114A326CE34FD0031CE58 /* AdView.swift in Sources */,
+				0ED114A726CF507E0031CE58 /* AppSNSLink.swift in Sources */,
+				0E4E172D26C6322800EE6AF5 /* ImagePicker.swift in Sources */,
+				CA78BE6E26985D94003D6A17 /* AddMeetingView.swift in Sources */,
+				CA832F1F268C868800D04346 /* QrCodeScannerView.swift in Sources */,
+				CA7E0EA4268B1C99004E37C4 /* CircleImage.swift in Sources */,
+				CA82CFF926991D7C00069C4C /* DB_ManagerCategory.swift in Sources */,
+				CA7E0EAC268B339B004E37C4 /* MeetingData.swift in Sources */,
+				CAEE4F2426723BCD002EEFF3 /* MeetingLayoutView.swift in Sources */,
+				0E3C172A26D3B92E002E8CEC /* UserDataModel.swift in Sources */,
+				0E3C172626D3B455002E8CEC /* PopupCategoryView.swift in Sources */,
+				0E3C172C26D3BB2B002E8CEC /* AddUserDataView.swift in Sources */,
+				CAB9171126C10C9F00FDDF28 /* DraggableView.swift in Sources */,
+				CAC5A4F12689E41A0086FD2B /* UserDataList.swift in Sources */,
+				CA507E5C274C7967007D70A5 /* EditUserView.swift in Sources */,
+				CA87559826900DD5004BB857 /* AddUserView.swift in Sources */,
+				CA82D00226991F6000069C4C /* CategoryModel.swift in Sources */,
+				CA267841262DA8A30038FD6E /* ContentView.swift in Sources */,
+				CAB9170F26C0CC8A00FDDF28 /* PopupQRCodeReaderView.swift in Sources */,
+				CA838E3026F7839700C91170 /* Common.swift in Sources */,
+				CA7E0EA0268B1C92004E37C4 /* MapView.swift in Sources */,
+				CAC5A4E92689E3F10086FD2B /* Data.swift in Sources */,
+				CA7E0EB0268B33D3004E37C4 /* MeetingList.swift in Sources */,
+				CA78BE6A269856B8003D6A17 /* MeetingModel.swift in Sources */,
+				CAC5A4ED2689E4100086FD2B /* UserDataRow.swift in Sources */,
+				CAC5A536268A0ED00086FD2B /* UserDataDetail.swift in Sources */,
+				CAADA74926C3EF17006F9098 /* QRCodeView.swift in Sources */,
+				CA9A42D226A2E27F00598687 /* AlertDialog.swift in Sources */,
+				CAB9171326C1121200FDDF28 /* Avater.swift in Sources */,
+				CA6EE416263D7E9400BDFE59 /* QRCodeMaker.swift in Sources */,
+				CA7E0EB8268B33FB004E37C4 /* MeetingDetail.swift in Sources */,
+				CA75FFE026E658880067F88C /* ShareSheet.swift in Sources */,
+				CAADA74D26C3F73B006F9098 /* PopUpMapView.swift in Sources */,
+				CA82D00626992E5A00069C4C /* CategoryRegistView.swift in Sources */,
+				CA78BE6C269856E7003D6A17 /* DB_ManagerMeeting.swift in Sources */,
+				CA26783F262DA8A30038FD6E /* MayCaApp.swift in Sources */,
+				CACC07762632E346002E4E63 /* ScreenTransitionView.swift in Sources */,
+				CA3662A026D5018C00433DE4 /* UserDataEditView.swift in Sources */,
+				CA87559E26900E02004BB857 /* UserModel.swift in Sources */,
+				CA6EE409263D769500BDFE59 /* MyDataSettingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267848262DA8A30038FD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267851262DA8A30038FD6E /* MayCaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267853262DA8A30038FD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA26785C262DA8A30038FD6E /* MayCaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA26784E262DA8A30038FD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA26783A262DA8A30038FD6E /* MayCa */;
+			targetProxy = CA26784D262DA8A30038FD6E /* PBXContainerItemProxy */;
+		};
+		CA267859262DA8A30038FD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA26783A262DA8A30038FD6E /* MayCa */;
+			targetProxy = CA267858262DA8A30038FD6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA26785E262DA8A30038FD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA26785F262DA8A30038FD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA267861262DA8A30038FD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5801E5059B08B668E3FC84C5 /* Pods-MayCa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_ASSET_PATHS = "\"MayCa/Preview Content\"";
+				DEVELOPMENT_TEAM = UM9N74S758;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MayCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.42;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA267862262DA8A30038FD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E7067AF4627ADC6DC3ADD4 /* Pods-MayCa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_ASSET_PATHS = "\"MayCa/Preview Content\"";
+				DEVELOPMENT_TEAM = UM9N74S758;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MayCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.42;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA267864262DA8A30038FD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A26BCC572835D09B0FD9FD /* Pods-MayCaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MayCaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayCa.app/MayCa";
+			};
+			name = Debug;
+		};
+		CA267865262DA8A30038FD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F132A758123FC4724A0571F7 /* Pods-MayCaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MayCaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayCa.app/MayCa";
+			};
+			name = Release;
+		};
+		CA267867262DA8A30038FD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC38BF6793C997044E271857 /* Pods-MayCa-MayCaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MayCaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MayCa;
+			};
+			name = Debug;
+		};
+		CA267868262DA8A30038FD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709E79C676CC94DC5BAF9B3B /* Pods-MayCa-MayCaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MayCaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganasonic.MayCaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MayCa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA267836262DA8A30038FD6E /* Build configuration list for PBXProject "MayCa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA26785E262DA8A30038FD6E /* Debug */,
+				CA26785F262DA8A30038FD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA267860262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267861262DA8A30038FD6E /* Debug */,
+				CA267862262DA8A30038FD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA267863262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267864262DA8A30038FD6E /* Debug */,
+				CA267865262DA8A30038FD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA267866262DA8A30038FD6E /* Build configuration list for PBXNativeTarget "MayCaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267867262DA8A30038FD6E /* Debug */,
+				CA267868262DA8A30038FD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA267833262DA8A30038FD6E /* Project object */;
+}
